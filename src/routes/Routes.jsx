@@ -49,7 +49,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/*",
-    element: <h2>this is error</h2>,
+    element: <h2 className="text-5xl text-center mt-40">Not Found</h2>,
   },
 ]);
 export default router;
